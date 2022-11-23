@@ -4,5 +4,5 @@ Simple telnet echo server written in c#
 To build;
 mcs Program.cs
 
-To run it;
+To run;
 mono Program.exe
