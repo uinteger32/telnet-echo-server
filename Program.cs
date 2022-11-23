@@ -8,7 +8,7 @@ class Program
     {
         // Simple Telnet server   
         TelnetEchoServer server = new TelnetEchoServer();
-        server.BeginAcceptClients();
+        server.BeginAccept();
     }
 }
 
@@ -21,7 +21,7 @@ class TelnetEchoServer
         listener.Start();
     }
 
-    public void BeginAcceptClients()
+    public void BeginAccept()
     {
         while (true)
         {
